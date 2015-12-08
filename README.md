@@ -22,7 +22,7 @@ to/from [EventDispatcher](https://github.com/devaloka/devaloka)'s Event.
 1.  Install via Composer.
 
     ```sh
-    composer require devaloka/devaloka-event-converter dev-master
+    composer require devaloka/devaloka-event-converter
     ```
 
 2.  Move `loader/10-devaloka-event-converter-loader.php` into
