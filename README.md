@@ -5,7 +5,7 @@ to/from [EventDispatcher](https://github.com/devaloka/devaloka)'s Event.
 
 ## Features
 
-*   Interchangeably handle/listen/dispatch *all* WordPress actions/filters
+*   Interchangeably handle/listen/dispatch **all** WordPress actions/filters
     as EventDispatcher's Events
 
     *   WordPress's action/filter to WordPress's action/filter
