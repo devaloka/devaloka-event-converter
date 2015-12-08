@@ -11,7 +11,7 @@ to/from [EventDispatcher](https://github.com/devaloka/devaloka)'s Event.
     *   WordPress's action/filter to WordPress's action/filter
     *   WordPress's action/filter to EventDispatcher's Event
     *   EventDispatcher's Event to WordPress's action/filter
-    *   EventDispatcher's Event to EventDispatcher's action/filter
+    *   EventDispatcher's Event to EventDispatcher's Event
 
 ## Requirements
 
