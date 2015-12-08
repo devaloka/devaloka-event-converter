@@ -12,4 +12,8 @@ Domain Path: /devaloka-event-converter/languages
 Network: true
 */
 
+if (!defined('ABSPATH')) {
+    exit;
+}
+
 require WPMU_PLUGIN_DIR . '/devaloka-event-converter/devaloka-event-converter.php';
