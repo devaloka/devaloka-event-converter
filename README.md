@@ -1,4 +1,4 @@
-# Devaloka Event Converter [![Build Status](https://travis-ci.org/devaloka/devaloka-event-converter.svg?branch=master)](https://travis-ci.org/devaloka/devaloka-event-converter)
+# Devaloka Event Converter [![Build Status](https://travis-ci.org/devaloka/devaloka-event-converter.svg?branch=master)](https://travis-ci.org/devaloka/devaloka-event-converter) [![Packagist](https://img.shields.io/packagist/v/devaloka/devaloka-event-converter.svg)](https://packagist.org/packages/devaloka/devaloka-event-converter)
 
 A WordPress plugin that interchangeably converts WordPress's action/filter
 to/from [EventDispatcher](https://github.com/devaloka/devaloka)'s Event.
