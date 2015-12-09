@@ -32,10 +32,8 @@
         "url" : "https://github.com/devaloka/devaloka-event-converter.git"
     },
     "scripts"        : {
-        "lint": "mdast -u mdast-lint README.md"
-    },
-    "dependencies"   : {
-        "devaloka": "*"
+        "lint"       : "mdast -u mdast-lint README.md",
+        "lint-travis": "mdast -f -u mdast-lint README.md"
     },
     "devDependencies": {
         "mdast"     : "~2.3.0",
