@@ -22,3 +22,8 @@ script:
 cache:
   directories:
     - node_modules
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
