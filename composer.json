@@ -1,7 +1,7 @@
 {
     "name"             : "devaloka/devaloka-event-converter",
     "description"      : "Interchangeably converts all WordPress action/filter to/from EventDispatcher's Event",
-    "version"          : "0.5.0",
+    "version"          : "0.5.1",
     "type"             : "devaloka-muplugin",
     "keywords"         : [
         "wordpress",
