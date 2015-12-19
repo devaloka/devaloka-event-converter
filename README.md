@@ -25,9 +25,6 @@ to/from [EventDispatcher](https://github.com/devaloka/devaloka)'s Event.
     composer require devaloka/devaloka-event-converter
     ```
 
-2.  Move `loader/10-devaloka-event-converter-loader.php` into
-    `<ABSPATH>wp-content/mu-plugins/`.
-
 ## Caveat
 
 *   `Event::stopPropagation()` doesn't work.
