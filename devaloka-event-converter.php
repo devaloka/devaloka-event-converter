@@ -2,7 +2,7 @@
 /*
 Plugin Name: Devaloka Event Converter
 Description: Interchangeably converts all WordPress action/filter to/from EventDispatcher's Event
-Version: 0.5.0
+Version: 0.5.1
 Author: Whizark
 Author URI: http://whizark.com
 License: GPL-2.0+
