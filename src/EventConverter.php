@@ -103,16 +103,6 @@ class EventConverter
     {
         $event = ($arguments instanceof WordPressEvent) ? $arguments : new WordPressEvent($arguments);
 
-        /** @deprecated to be removed in EventDispatcher 3.0. The event dispatcher is passed to the listener call. */
-        if ($event->getDispatcher() === null) {
-            $event->setDispatcher($this->dispatcher);
-        }
-
-        /** @deprecated to be removed in EventDispatcher 3.0. The event name is passed to the listener call. */
-        if ($event->getName() === null) {
-            $event->setName($eventName);
-        }
-
         return $event;
     }
 }
