@@ -11,7 +11,7 @@
 namespace Devaloka\EventConverter;
 
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
-use Devaloka\EventDispatcher\Event\WordPressEvent;
+use Devaloka\Component\EventDispatcher\Event\WordPressEvent;
 
 /**
  * Class EventConverter

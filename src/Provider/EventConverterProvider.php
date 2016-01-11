@@ -13,7 +13,7 @@ namespace Devaloka\EventConverter\Provider;
 use Pimple\Container;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Devaloka\Devaloka;
-use Devaloka\DependencyInjection\ContainerInterface;
+use Devaloka\Component\DependencyInjection\ContainerInterface;
 use Devaloka\Provider\ServiceProviderInterface;
 use Devaloka\Provider\EventListenerProviderInterface;
 
