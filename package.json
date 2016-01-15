@@ -1,32 +1,5 @@
 {
-    "name"           : "devaloka-event-converter",
     "version"        : "0.5.2",
-    "description"    : "Interchangeably converts all WordPress action/filter to/from EventDispatcher's Event",
-    "keywords"       : [
-        "wordpress",
-        "plugin",
-        "event-dispatcher",
-        "action",
-        "filter"
-    ],
-    "homepage"       : "https://github.com/devaloka/devaloka-event-converter",
-    "bugs"           : {
-        "url": "https://github.com/devaloka/devaloka-event-converter/issues"
-    },
-    "license"        : "(MIT OR GPL-2.0 OR GPL-3.0)",
-    "author"         : {
-        "name" : "Whizark",
-        "email": "devaloka@whizark.com",
-        "url"  : "http://whizark.com"
-    },
-    "files"          : [
-        "./MIT-LICENSE.txt",
-        "./GPL-LICENSE.txt",
-        "./devaloka-event-converter.php",
-        "./loader/*",
-        "./src/*"
-    ],
-    "main"           : "./devaloka-event-converter.php",
     "repository"     : {
         "type": "git",
         "url" : "https://github.com/devaloka/devaloka-event-converter.git"
@@ -42,5 +15,6 @@
         "remark"      : "^3.2.0",
         "remark-lint" : "^2.1.0",
         "semver"      : "^5.1.0"
-    }
+    },
+    "private"        : true
 }
