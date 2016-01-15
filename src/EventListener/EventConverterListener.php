@@ -12,8 +12,8 @@
 
 namespace Devaloka\EventConverter\EventListener;
 
+use Ecailles\CallableObject\CallableObject;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use Devaloka\EventConverter\CallableObject;
 use Devaloka\EventConverter\FilterFunction;
 use Devaloka\EventConverter\EventConverter;
 

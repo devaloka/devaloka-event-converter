@@ -10,6 +10,7 @@
 
 namespace Devaloka\EventConverter;
 
+use Ecailles\CallableObject\CallableObject;
 use ReflectionFunction;
 use ReflectionMethod;
 
@@ -110,14 +111,9 @@ class FilterFunction
         }
 
         if ($this->callable->isInstanceMethod() || $this->callable->isClassMethod()) {
-            $callable = $this->callable->get();
-            $object   = $callable[0];
-            $method   = $callable[1];
-
-            if ($this->callable->isOverloadable()) {
-                $method = '__call';
-            }
-
+            $callable         = $this->callable->get();
+            $object           = $callable[0];
+            $method           = $callable[1];
             $this->reflection = new ReflectionMethod($object, $method);
         }
 
