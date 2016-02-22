@@ -66,6 +66,9 @@
         ]
     },
     "extra"            : {
+        "branch-alias"    : {
+            "dev-master": "0.7.x-dev"
+        },
         "installer-loader": "loader/10-devaloka-event-converter-loader.php"
     }
 }
